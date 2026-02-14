@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://bbcorps.onrender.com/api"
+  baseURL: "https://bbcorps-1.onrender.com/api"
 });
 
 API.interceptors.request.use((req) => {
